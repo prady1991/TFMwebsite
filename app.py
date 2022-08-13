@@ -51,7 +51,7 @@ dictionary_params= {"pickup_datetime":str(date)+str(' ') +str(time),'pickup_long
 'dropoff_latitude':dropoff_latitude,'passenger_count':passenger_count}
 
 
-st.map(pd.DataFrame(dict(long=[pickup_longitude,dropoff_longitude]
+st.map(pd.DataFrame(dict(long=[pickup_longitude,dropoff_longitude],
 lattitude=[pickup_latitude,dropoff_latitude])))
 
 
