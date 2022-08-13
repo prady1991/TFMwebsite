@@ -66,4 +66,5 @@ response_from_json=response.json()
 
 ## Finally, we can display the prediction to the user
 
-response_from_json
+fare=response_from_json['fare']
+fare
