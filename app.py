@@ -52,7 +52,7 @@ dictionary_params= {"pickup_datetime":str(date)+str(' ') +str(time),'pickup_long
 
 
 st.map(pd.DataFrame(dict(long=[pickup_longitude,dropoff_longitude],
-lattitude=[pickup_latitude,dropoff_latitude])))
+lat=[pickup_latitude,dropoff_latitude])))
 
 
 # 3. Let's call our API using the `requests` package...
