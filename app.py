@@ -49,7 +49,8 @@ if url == 'https://taxifare.lewagon.ai/predict':
 dictionary_params= {"pickup_datetime":str(date)+str(' ') +str(time),'pickup_longitude':pickup_longitude,
 'pickup_latitude':pickup_latitude,'dropoff_longitude':dropoff_longitude,
 'dropoff_latitude':dropoff_latitude,'passenger_count':passenger_count}
-
+st.map((pickup_latitude,pickup_longitude))
+st.map((dropoff_latitude,dropoff_longitude))
 
 # 3. Let's call our API using the `requests` package...
 
