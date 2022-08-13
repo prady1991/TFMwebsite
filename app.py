@@ -67,4 +67,4 @@ response_from_json=response.json()
 ## Finally, we can display the prediction to the user
 
 fare=response_from_json['fare']
-fare
+st.write("The Fare is ",fare)
